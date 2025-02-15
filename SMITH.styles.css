@@ -82,9 +82,11 @@ table {
 
 
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-@media (prefers-color-scheme: dark){
-    body: { background-color: var(--dark-gray) ;}
+@media (prefers-color-scheme: dark) {
+
+    body { background-color: var(--dark-gray) ;}
 }
+
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
@@ -146,12 +148,10 @@ footer .icon{
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
 
     @media (prefers-reduced-motion) {
+        
+}
 
-    icon-animation {
-            100% { font-variation-settings: "TIME" 100; }
-        }
 
-    }
 
 
 
